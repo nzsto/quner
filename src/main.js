@@ -5,9 +5,10 @@ import router from './router'
 import fastClick from "fastclick"
 
 
-//静态文件引入
-import './assets/styles/reset.css'
-import './assets/styles/border.css'
+//静态文件css引入
+import 'styles/reset.css'
+import 'styles/border.css'
+import 'styles/iconfont.css'
 
 //是否开发或生产模式
 Vue.config.productionTip = false
